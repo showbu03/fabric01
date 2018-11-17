@@ -1,0 +1,29 @@
+{
+  "channelName": "mychannel",
+  "orderer": {
+    "orderer1": {
+      "mspid": "OrdererMSP",
+      "url": "grpc://localhost:7050",
+      "server-hostname": "orderer.example.com",
+      "tls_cacerts": "tlsCerts/orderer/ca.example.com-cert.pem"
+    }
+  },
+  "orgs": {
+    "org1": {
+      "name": "peerOrg1",
+      "mspid": "Org1MSP",
+      "ca": {
+        "url": "http://localhost:7054",
+        "name": "ca.example.com"
+      },
+      "peers": {
+        "peer1": {
+          "requests": "grpc://localhost:7051",
+          "events": "grpc://localhost:7053",
+          "server-hostname": "peer0.org1.example.com",
+          "tls_cacerts": "tlsCerts/org1.example.com/ca.org1.example.com-cert.pem"
+        }
+      }
+    }
+  }
+}
