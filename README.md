@@ -30,4 +30,15 @@ how to fix it, please visit the web page mentioned above.
       * https://docs.docker.com/install/linux/docker-ce/ubuntu
       * https://docs.docker.com/compose/install
       * If you would like to use Docker as a non-root user, you should now consider adding your user to the “docker” group with something like   :  sudo usermod -aG docker your-user
-    
+2. golang 설치
+      * sudo apt-get -y upgrade
+      * wget https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz
+      * sudo tar -xvf go1.11.2.linux-amd64.tar.gz
+      * sudo mv go /usr/local
+      * 환경변수 셋팅
+         * $vi ~/.profile
+         * export GOROOT=/usr/local/go
+         * export GOPATH=$HOME/workspace
+         * export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+
+      
