@@ -9,7 +9,7 @@
     * 공유폴더 mount
       * sudo mkdir -p /usr/shared
       * sudo mount -t vboxsf share /usr/shared
-3. 인증서 복사(필요한 경우)
+3. 인증서 복사 (SSL 인증서 문제로 Docker설치시 오류난 경우)
 * 아래와 같은 오류가 발생할 경우
 <pre>
 curl: (60) SSL certificate problem: self signed certificate in certificate chain
