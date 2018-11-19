@@ -10,12 +10,22 @@
       * sudo mkdir -p /usr/shared
       * sudo mount -t vboxsf share /usr/shared
 3. 인증서 복사(필요한 경우)
+* 아래와 같은 오류가 발생할 경우
+<pre>
+curl: (60) SSL certificate problem: self signed certificate in certificate chain
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.      
+</pre>
       * C:\Windows\Temp\ㅁㅁㅁ.crt 복사 -> 공유폴더(share)에 붙여넣기
       * sudo cp ㅁㅁㅁ.crt /usr/share/ca-certificates/
       * sudo cp ㅁㅁㅁ.crt /usr/local/share/ca-certificates/
       * sudo update-ca-certificates
-      
 
+## Fabric 환경 구축
+1. 
 
 
     
