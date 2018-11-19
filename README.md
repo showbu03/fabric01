@@ -1,4 +1,4 @@
-# fabric01
+# Hyperledger Fabric 개발환경 
 
 ## Ubuntu 환경설정
 1. virtualbox에 18.04 설치
