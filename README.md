@@ -42,5 +42,12 @@ how to fix it, please visit the web page mentioned above.
          * export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
          * source ~/.profile
          * go env (환경변수 확인)
-
+3. IntelliJ 설치
+      * https://www.jetbrains.com/idea/download/#section=linux
+4. nvm 설치
+      * curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+      * source ~/.bashrc
+      * nvm install 8
+      * nvm install 6
+      * nvm use 8
       
