@@ -19,13 +19,15 @@ curl failed to verify the legitimacy of the server and therefore could not
 establish a secure connection to it. To learn more about this situation and
 how to fix it, please visit the web page mentioned above.      
 </pre>
+
       * C:\Windows\Temp\ㅁㅁㅁ.crt 복사 -> 공유폴더(share)에 붙여넣기
       * sudo cp ㅁㅁㅁ.crt /usr/share/ca-certificates/
       * sudo cp ㅁㅁㅁ.crt /usr/local/share/ca-certificates/
       * sudo update-ca-certificates
 
 ## Fabric 환경 구축
-1. 
-
-
+1. Docker CE, Docker-Compose 설치
+      * https://docs.docker.com/install/linux/docker-ce/ubuntu
+      * https://docs.docker.com/compose/install
+      * If you would like to use Docker as a non-root user, you should now consider adding your user to the “docker” group with something like   :  sudo usermod -aG docker your-user
     
