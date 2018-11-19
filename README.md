@@ -9,7 +9,13 @@
     * 공유폴더 mount
       * sudo mkdir -p /usr/shared
       * sudo mount -t vboxsf share /usr/shared
+3. 인증서 복사(필요한 경우)
+      * C:\Windows\Temp\ㅁㅁㅁ.crt 복사 -> 공유폴더(share)에 붙여넣기
+      * sudo cp ㅁㅁㅁ.crt /usr/share/ca-certificates/
+      * sudo cp ㅁㅁㅁ.crt /usr/local/share/ca-certificates/
+      * sudo update-ca-certificates
       
-    
+
+
 
     
