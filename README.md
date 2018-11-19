@@ -40,5 +40,7 @@ how to fix it, please visit the web page mentioned above.
          * export GOROOT=/usr/local/go
          * export GOPATH=$HOME/workspace
          * export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+         * source ~/.profile
+         * go env (환경변수 확인)
 
       
