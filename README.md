@@ -5,11 +5,18 @@
     * download : https://www.ubuntu.com/download/server/thank-you?country=KR&version=18.04.1&architecture=amd64
 2. 공유폴더 설정
     * 이름 : share 생성
-    * VM VirtualBox의 상단 메뉴 "장치"-> 게스트 확장 CD 이미지 삽입 -> 실행 -> root 비번 입력 -> 설치 콘솔 -> 엔터(종료)
-    * 터미널 -> sudo reboot
-    * 공유폴더 mount
-      * sudo mkdir -p /usr/shared
-      * sudo mount -t vboxsf share /usr/shared
+    * VM VirtualBox의 상단 메뉴 "장치"-> 게스트 확장 CD 이미지 삽입 
+    <pre>
+    $sudo apt-get install build-essential linux-headers-$(uname -r)
+    $sudo apt-get install virtualbox-guest-additions-iso
+    $sudo apt-get install --reinstall linux-image-$(uname -r)
+    $sudo mount /dev/cdrom /mnt
+    $cd /mnt
+    $sudo ./VBoxLinuxAdditions.run
+    $sudo reboot
+    $sudo mkdir -p /usr/shared
+    $sudo mount -t vboxsf share /usr/shared
+    </pre>
 3. 인증서 복사 (SSL 인증서 문제로 Docker설치시 오류난 경우)
 * 아래와 같은 오류가 발생할 경우
 <pre>
