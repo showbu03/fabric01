@@ -2,6 +2,7 @@
 
 ## Ubuntu 환경설정
 1. virtualbox에 18.04 설치
+    * download : https://www.ubuntu.com/download/server/thank-you?country=KR&version=18.04.1&architecture=amd64
 2. 공유폴더 설정
     * 이름 : share 생성
     * VM VirtualBox의 상단 메뉴 "장치"-> 게스트 확장 CD 이미지 삽입 -> 실행 -> root 비번 입력 -> 설치 콘솔 -> 엔터(종료)
