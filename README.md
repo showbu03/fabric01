@@ -81,6 +81,14 @@ $)git clone https://github.com/showbu03/fabric01.git
 $)cd ~/github.com/fabric01
 $)npm install
 ```
+* npm install시 인증서 오류 발생시 조치 방법
+<pre>
+export NODE_TLS_REJECT_UNAUTHORIZED='0'
+npm set strict-ssl false
+npm set registry http://registry.npmjs.org
+npm set python python2.7
+npm set ca ""
+</pre>
 
 ### HLF Basic 네트워크 구동
 
