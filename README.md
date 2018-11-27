@@ -72,13 +72,13 @@ how to fix it, please visit the web page mentioned above.
 ## HLF 기반 Simple Balance API 개발 환경 구성
 * 개발 소스 clone
 ```
-$)cd ~ #홈디렉토리로 이동
-$)mkdir github
-$)git clone https://github.com/simon0210/hyperledger-study02.git
+$)cd ~/workspace/src #홈디렉토리로 이동
+$)mkdir github.com
+$)git clone https://github.com/showbu03/fabric01.git
 ```
 * nodeJS 모듈 설치
 ```
-$)cd ~/github/hyperledger-study02
+$)cd ~/github.com/fabric01
 $)npm install
 ```
 
@@ -91,7 +91,7 @@ $) docker rm -f $(docker ps -aq)
 
 * 네트워크구동
 ```
-$)cd ~/github/hyperledger-study02/tools/network
+$)cd ~/workspace/src/github.com/fabric01/tools/network
 $)./0-network-start.sh
 ```
 
@@ -106,7 +106,7 @@ $)./2-setup-chaincode.sh balance 0.1
 주의할점은 체인코드 ID를 balance에서 다른것으로 바꾸면 안된다. 해당 쉘 스크립트는  
 
 ```
-$)cd ~/github/hyperledger-study02/tools/chaincodes
+$)cd ~/workspace/src/github.com/fabric01/tools/chaincodes
 $)ls -al
 
 drwxr-xr-x 3 simon simon 4096  9월 15 10:07 .
@@ -122,7 +122,7 @@ drwxr-xr-x 2 simon simon 4096  9월 15 18:46 balance_cc
 ### API 서버 구동
 * npm run dev 명령으로 API 서버를 구동한다.
 ```
-$)cd /home/simon/github/hyperledger-study02
+$)cd ~/workspace/src/github.com/fabric01
 $)npm run dev
 ```
 
