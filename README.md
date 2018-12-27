@@ -61,13 +61,13 @@ how to fix it, please visit the web page mentioned above.
       * nvm use 8
       
 5. 기타 개발 도구 설치
-      * apt-get install -y python-pip
-      * apt-get install -y git
-      * apt-get install -y curl
-      * apt-get install -y libltdl-dev
-      * apt-get install -y tree
-      * apt-get install -y net-tools
-      * apt-get install -y openssh-server
+      * sudo apt-get install -y python-pip
+      * sudo apt-get install -y git
+      * sudo apt-get install -y curl
+      * sudo apt-get install -y libltdl-dev
+      * sudo apt-get install -y tree
+      * sudo apt-get install -y net-tools
+      * sudo apt-get install -y openssh-server
       
 
 
