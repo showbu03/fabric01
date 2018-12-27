@@ -73,8 +73,8 @@ how to fix it, please visit the web page mentioned above.
       * git clone -b release-1.3 https://github.com/hyperledger/fabric
       * cd fabric
       * make docker 
-      * 만약, git clone 인증서 관련 오류시 gotools.mk 파일 수정 // gotools-install 마지막 라인에 export GIT_SSL_NO_VERIFY=1 추가 
-      * make clean -> make docker
+      * 만약, git clone 인증서 관련 오류시 gotools.mk 파일 수정 // gotools-install 마지막 라인에 export GIT_SSL_NO_VERIFY=1 추가 후 make clean -> make docker
+      * make release -> release/linux-amd64/bin 하위에 바이너리 파일 
       
       
 
