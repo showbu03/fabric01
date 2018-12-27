@@ -68,6 +68,13 @@ how to fix it, please visit the web page mentioned above.
       * sudo apt-get install -y tree
       * sudo apt-get install -y net-tools
       * sudo apt-get install -y openssh-server
+
+6. Hyperledger Fabric 다운로드(필요시)
+      * git clone -b release-1.3 https://github.com/hyperledger/fabric
+      * cd fabric
+      * make 
+      * 만약, git clone 인증서 관련 오류시 gotools.mk 파일 수정 // gotools-install 마지막 라인에 export GIT_SSL_NO_VERIFY=1 추가
+      
       
 
 
