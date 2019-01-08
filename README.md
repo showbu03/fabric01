@@ -1,4 +1,4 @@
-# README
+# Hyperledger Fabric 환경 구성
 
 ## Hyperledger Fabric 개발환경
 
@@ -8,10 +8,9 @@
    * download : [https://www.ubuntu.com/download/server/thank-you?country=KR&version=18.04.1&architecture=amd64](https://www.ubuntu.com/download/server/thank-you?country=KR&version=18.04.1&architecture=amd64)
 2. 공유폴더 설정
    * 이름 : share 생성
-   * VM VirtualBox의 상단 메뉴 "장치"-&gt; 게스트 확장 CD 이미지 삽입 
+   * VM VirtualBox의 상단 메뉴 "장치"-&gt; 게스트 확장 CD 이미지 삽입
 
      ```text
-
      터미널에서 
      sudo apt-get install build-essential linux-headers-$(uname -r)
      sudo apt-get install virtualbox-guest-additions-iso
@@ -108,7 +107,6 @@ curl failed to verify the legitimacy of the server and therefore could not estab
 * npm install시 인증서 오류 발생시 조치 방법
 
   ```text
-
   export NODE_TLS_REJECT_UNAUTHORIZED='0'
   npm set strict-ssl false
   npm set registry http://registry.npmjs.org
@@ -143,7 +141,7 @@ curl failed to verify the legitimacy of the server and therefore could not estab
   $)./2-setup-chaincode.sh balance 0.1
   ```
 
-  주의할점은 체인코드 ID를 balance에서 다른것으로 바꾸면 안된다. 해당 쉘 스크립트는  
+  주의할점은 체인코드 ID를 balance에서 다른것으로 바꾸면 안된다. 해당 쉘 스크립트는
 
 ```text
 $)cd ~/workspace/src/github.com/fabric01/tools/chaincodes
