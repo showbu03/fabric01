@@ -220,5 +220,5 @@ $)make native
 cp -rf ~/github/hyperledger-study02 $GOPATH/src/github.com/
 ```
 
-[https://github.com/hyperledger/fabric/tree/master/core/chaincode/lib/cid](https://github.com/hyperledger/fabric/tree/master/core/chaincode/lib/cid)
+{% embed url="https://github.com/hyperledger/fabric/tree/master/core/chaincode/lib/cid" %}
 
