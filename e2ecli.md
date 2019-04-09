@@ -23,7 +23,7 @@ cd example/e2e_cli
 ./network_setup.sh up mychannel 50000 couchdb
 ```
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image.png)
 
 ## [Invoke & Query Test \(CLI\)](https://github.com/hyperledger/fabric)
 
@@ -66,5 +66,5 @@ http://localhost:5984/_utils/
 ./network_setup.sh down
 ```
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
