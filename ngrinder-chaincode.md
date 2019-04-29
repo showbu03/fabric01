@@ -111,7 +111,7 @@ Agent 리스트에 구동된 Agent 확인 후 "Approved" 버튼을 클릭하여 
 
 #### 테스트 스크립트에서 외부  라이브러리를 많이 참조하는 경우 
 
-ngrinder-core 라이브러리의 GroovyGrinderClassPathProcessor.class에서 groovy 스크립트에 대한 기본 라이브러리를 셋팅한다.  
+ngrinder-core 라이브러리의 GroovyGrinderClassPathProcessor.class에서 테스트 스크립트에 대한 기본 라이브러리를 셋팅한다.  
 따라서, 외부 라이브러리를 많이 참조해야되는 경우 위 클래스 파일을 수정하면 된다.  
 
 
