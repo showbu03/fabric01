@@ -1,4 +1,4 @@
-# nGrinder기반의 Chaincode 성능 테스트 환경 구성
+# nGrinder 환경 구성
 
 ## 
 
