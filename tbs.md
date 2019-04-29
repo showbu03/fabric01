@@ -13,7 +13,7 @@ docker network ls
 docker network inspect e2e_default
 ```
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 위 명령어로 해당 IP의 컨테이너를 확인해 보면 172.29.0.18은 CLI 컨테이너 인것을 확인할 수 있다.
 
@@ -25,7 +25,7 @@ docker network inspect e2e_default
 netstat -nptl
 ```
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 위의 네트워크 상태 결과와 같이 7050으로 정상적으로 리스닝이 되고 있는지 확인해야 된다.
 
