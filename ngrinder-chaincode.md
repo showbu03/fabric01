@@ -96,3 +96,23 @@ Agent 리스트에 구동된 Agent 확인 후 "Approved" 버튼을 클릭하여 
 
 ![](.gitbook/assets/image%20%283%29.png)
 
+
+
+* `Agent` : 사용할 Agent 개수
+* `Vuser per Agent` : Agent당 가상 user
+  * Process
+  * Thread
+  * 되도록이면 Thread를 많이 지정하는게 좋습니다.
+* `Rame-Up` : 천천히 부하를 늘려가면서 진행하는 방식
+  * 초기 개수, 증가 크기 등등 설정할 수 있습니다.
+* `Duration` : 테스트 시간
+* `Run Count` : 각 Thread 당 실행 횟수
+* `Script` : Test Script
+
+
+
+### Reference <a id="reference"></a>
+
+* [https://github.com/naver/ngrinder/releases](https://github.com/naver/ngrinder/releases)
+* [https://opentutorials.org/module/351/3334](https://opentutorials.org/module/351/3334)
+
