@@ -63,6 +63,12 @@ core.yaml은 하이퍼레저 패브릭 CLI 기본 설정 파일입니다.
 \(peer 명령 설정 파일\)
 {% endhint %}
 
+{% hint style="info" %}
+peer 컨테이너 정보 확인 방법!
+
+docker inspect peer0.org1.example.com \| grep -e IPAddress -e MSPID
+{% endhint %}
+
 ### VM 환경변수
 
 * CORE\_VM\_ENDPOINT : Docker 데몬 주소
